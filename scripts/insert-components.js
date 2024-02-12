@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('/components/navbar.html')
+    fetch('https://oleksii-lemeshinskyi-kv13.github.io/webdesign-lab1/components/navbar.html')
         .then(response => response.text())
         .then(html => {
             document.getElementById('navbar-placeholder').innerHTML = html;
